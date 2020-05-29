@@ -1,10 +1,10 @@
 package com.xzy.ui.javalib.innerclass.thread;
 
 /**
- * Author: xzy
- * https://blog.csdn.net/zxd8080666/article/details/83214089
+ * reference: https://blog.csdn.net/zxd8080666/article/details/83214089
  * Date: 验证 synchronized 的同步锁特性
  * Description:
+ * @author xzy
  */
 public class SyncDemo {
 

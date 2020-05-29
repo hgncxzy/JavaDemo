@@ -58,7 +58,7 @@ public class TestList {
     void remove(List list, int len) {
         // 这种删除方式会改变索引，有问题
         //  list.remove(index);
-        // 应该使用迭代器删除元素
+        //  应该使用迭代器删除元素
         Iterator<Integer> it = list.iterator();
         int count = 0;
         while (it.hasNext()) {

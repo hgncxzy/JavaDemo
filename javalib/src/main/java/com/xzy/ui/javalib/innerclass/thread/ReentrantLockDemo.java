@@ -4,10 +4,10 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * Author: xzy
- * https://blog.csdn.net/zxd8080666/article/details/83214089
+ * reference:https://blog.csdn.net/zxd8080666/article/details/83214089
  * Date:检验 ReentrantLock 的同步锁机制
  * Description:
+ * @author xzy
  */
 public class ReentrantLockDemo {
     public static void main(String[] args) {
