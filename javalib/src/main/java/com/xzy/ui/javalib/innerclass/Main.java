@@ -7,7 +7,7 @@ import java.util.Arrays;
  * 静态内部类和普通内部类。
  * reference https://www.cnblogs.com/daxia/p/7998774.html
  *
- * @author 002034
+ * @author xzy
  */
 public class Main {
     public static void main(String[] args) {
