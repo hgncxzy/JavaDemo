@@ -30,4 +30,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     annotationProcessor project(':javalib')
+
+
+    implementation 'com.squareup.retrofit2:retrofit:2.8.1'
 }

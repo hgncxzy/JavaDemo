@@ -14,37 +14,31 @@ import com.xzy.ui.javademo.annotation.inject.InjectView;
 import java.util.ArrayList;
 
 @Lance(value = 1, id = "2")
-public class MainActivity extends AppCompatActivity {
+public class FirstActivity extends AppCompatActivity {
     int i;
-
-
     int j;
-
-
     @InjectView(R.id.tv)
     private TextView tv;
-
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        InjectUtils.injectView(this);
 
+        InjectUtils.injectView(this);
         tv.setText("lance真tm帅！！！");
 
-
         ArrayList<UserParcelable> userParcelableList = new ArrayList<>();
-
         userParcelableList.add(new UserParcelable("Jett"));
+
         Intent intent = new Intent(this, SecondActivity.class)
                 .putExtra("name", "Lance")
-                .putExtra("attr","帅")
+                .putExtra("attr", "帅")
                 .putExtra("array", new int[]{1, 2, 3, 4, 5, 6})
                 .putExtra("userParcelable", new UserParcelable("Lance"))
                 .putExtra("userParcelables", new UserParcelable[]{new UserParcelable("Alvin")})
-                .putExtra("users",new UserSerializable[]{new UserSerializable("Jett")})
-                .putExtra("strs",new String[]{"1","2"})
+                .putExtra("users", new UserSerializable[]{new UserSerializable("Jett")})
+                .putExtra("strs", new String[]{"1", "2"})
                 .putParcelableArrayListExtra("userParcelableList", userParcelableList);
         startActivity(intent);
     }

@@ -19,6 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".annotation.FirstActivity" />
+        <activity android:name=".annotation.SecondActivity" />
+
+        <activity android:name=".enjoyclass04.TestActivity" />
     </application>
 
 </manifest>
