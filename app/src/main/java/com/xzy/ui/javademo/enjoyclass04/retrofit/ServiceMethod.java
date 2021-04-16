@@ -16,6 +16,7 @@ import okhttp3.Request;
 
 /**
  * 记录请求类型  参数  完整地址
+ *
  * @author xzy
  */
 public class ServiceMethod {
