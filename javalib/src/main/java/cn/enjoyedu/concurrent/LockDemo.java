@@ -17,6 +17,7 @@ public class LockDemo {
 		lock.lock();
 		try{
 			count++;
+			System.out.println(count);
 		}finally {
 			lock.unlock();
 		}
@@ -24,11 +25,14 @@ public class LockDemo {
 
 	public synchronized void incr2(){
 		count++;
+		System.out.println(count);
 		incr2();
 	}
 
 	public static void main(String[] args) {
 		LockDemo lockDemo = new LockDemo();
+		//lockDemo.incr();
+		lockDemo.incr2();
 	}
 
 }

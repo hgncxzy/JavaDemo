@@ -1,6 +1,6 @@
 package cn.enjoyedu.concurrent.ch2.tools;
 
-import cn.enjoyedu.tools.SleepTools;
+import cn.enjoyedu.concurrent.tools.SleepTools;
 
 /**
  *类说明：演示CountDownLatch用法，

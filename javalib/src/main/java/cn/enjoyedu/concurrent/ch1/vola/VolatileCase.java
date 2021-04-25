@@ -1,6 +1,6 @@
 package cn.enjoyedu.concurrent.ch1.vola;
 
-import cn.enjoyedu.tools.SleepTools;
+import cn.enjoyedu.concurrent.tools.SleepTools;
 
 /**
  * 类说明：演示Volatile的提供的可见性

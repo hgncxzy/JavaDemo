@@ -6,6 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  *类说明：演示尝试拿锁解决死锁
+ * @author xzy
  */
 public class TryLock {
     private static Lock No13 = new ReentrantLock();//第一个锁
@@ -75,6 +76,7 @@ public class TryLock {
             this.name = name;
         }
 
+        @Override
         public void run(){
             Thread.currentThread().setName(name);
             try {

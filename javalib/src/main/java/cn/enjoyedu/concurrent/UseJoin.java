@@ -4,9 +4,9 @@ import cn.enjoyedu.concurrent.tools.SleepTools;
 
 /**
  * 
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author xzy
  *
- *类说明：演示下join方法的使用
+ *类说明：演示下join方法的使用:join 函数让线程有序执行
  */
 public class UseJoin {
 	
@@ -17,6 +17,7 @@ public class UseJoin {
             this.thread = thread;
         }
 
+        @Override
         public void run() {
         	try {
         		System.out.println(thread.getName()+" will be join before "
@@ -30,7 +31,8 @@ public class UseJoin {
     }
 
     public static void main(String[] args) throws Exception {
-        Thread previous = Thread.currentThread();//现在是主线程
+        //现在是主线程
+        Thread previous = Thread.currentThread();
         for (int i = 0; i < 10; i++) {
             //i=0,previous 是主线程，i=1;previous是i=0这个线程
             Thread thread =
@@ -40,8 +42,8 @@ public class UseJoin {
             thread.start();
             previous = thread;
         }
-
-        SleepTools.second(2);//让主线程休眠2秒
+        //让主线程休眠2秒
+        SleepTools.second(2);
         System.out.println(Thread.currentThread().getName() + " terminate.");
     }
 }

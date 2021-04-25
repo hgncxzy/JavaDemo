@@ -1,14 +1,15 @@
 package cn.enjoyedu.concurrent.base.deadlock;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author xzy
  *
  *类说明：演示死锁的产生
  */
 public class NormalDeadLock {
-
-    private static Object No13 = new Object();//第一个锁
-    private static Object No14 = new Object();//第二个锁
+    //第一个锁
+    private static Object No13 = new Object();
+    //第二个锁
+    private static Object No14 = new Object();
 
     //第一个拿锁的方法
     private static void jamesDo() throws InterruptedException {

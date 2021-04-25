@@ -1,6 +1,6 @@
 package cn.enjoyedu.concurrent.ch2.tools.semaphore;
 
-import cn.enjoyedu.tools.SleepTools;
+import cn.enjoyedu.concurrent.tools.SleepTools;
 
 import java.sql.Connection;
 import java.util.Random;

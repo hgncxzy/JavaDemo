@@ -28,6 +28,7 @@ public class UseThreadLocal {
         public TestThread(int id){
             this.id = id;
         }
+        @Override
         public void run() {
             System.out.println(Thread.currentThread().getName()+":start");
             //TODO

@@ -1,11 +1,12 @@
 package cn.enjoyedu.concurrent.ch1.pool;
 
-import cn.enjoyedu.tools.SleepTools;
 
 import java.sql.*;
 import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.Executor;
+
+import cn.enjoyedu.concurrent.tools.SleepTools;
 
 /**
  *类说明：

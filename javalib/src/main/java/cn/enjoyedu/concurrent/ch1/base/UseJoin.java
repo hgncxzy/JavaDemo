@@ -1,6 +1,7 @@
 package cn.enjoyedu.concurrent.ch1.base;
 
-import cn.enjoyedu.tools.SleepTools;
+
+import cn.enjoyedu.concurrent.tools.SleepTools;
 
 /**
  *类说明：演示Join（）方法的使用

@@ -3,9 +3,9 @@ package cn.enjoyedu.concurrent.threadpool.mypool;
 import java.util.Random;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author xzy
  *
- *类说明：
+ *类说明：测试自定义线程池的实现
  */
 public class TestMyThreadPool {
     public static void main(String[] args) throws InterruptedException {
@@ -18,12 +18,13 @@ public class TestMyThreadPool {
         t.execute(new MyTask("testE"));
         System.out.println(t);
         Thread.sleep(10000);
-        t.destroy();// 所有线程都执行完成才destory
+        // 所有线程都执行完成才destory
+        t.destroy();
         System.out.println(t);
     }
 
-    // 任务类
-    static class MyTask implements Runnable {
+    /** 任务类*/
+    private static class MyTask implements Runnable {
 
         private String name;
         private Random r = new Random();

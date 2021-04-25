@@ -1,14 +1,16 @@
 package cn.enjoyedu.concurrent.wn;
 
 /**
- *@author Mark老师   享学课堂 https://enjoy.ke.qq.com 
+ *@author xzy
  *
  *类说明：快递实体类
  */
 public class Express {
     public final static String CITY = "ShangHai";
-    private int km;/*快递运输里程数*/
-    private String site;/*快递到达地点*/
+    /** 快递运输里程数*/
+    private int km;
+    /** 快递到达地点*/
+    private String site;
 
     public Express() {
     }
@@ -18,13 +20,14 @@ public class Express {
         this.site = site;
     }
 
-    /* 变化公里数，然后通知处于wait状态并需要处理公里数的线程进行业务处理*/
+    /** 变化公里数，然后通知处于wait状态并需要处理公里数的线程进行业务处理*/
     public synchronized void changeKm(){
     	this.km = 101;
         notify();
+        //notifyAll();
     }
 
-    /* 变化地点，然后通知处于wait状态并需要处理地点的线程进行业务处理*/
+    /** 变化地点，然后通知处于wait状态并需要处理地点的线程进行业务处理*/
     public synchronized void changeSite(){
 		this.site = "BeiJing";
 		notify();

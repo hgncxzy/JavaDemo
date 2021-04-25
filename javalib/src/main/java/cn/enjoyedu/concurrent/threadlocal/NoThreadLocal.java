@@ -1,9 +1,8 @@
 package cn.enjoyedu.concurrent.threadlocal;
 
 /**
- * @author Mark老师   享学课堂 https://enjoy.ke.qq.com
- * 往期课程咨询芊芊老师  QQ：2130753077 VIP课程咨询 依娜老师  QQ：2133576719
- * 类说明：
+ * @author xzy
+ * 类说明：没有使用 ThreadLocal 的情况
  */
 public class NoThreadLocal {
 
@@ -30,6 +29,7 @@ public class NoThreadLocal {
         public TestTask(int id){
             this.id = id;
         }
+        @Override
         public void run() {
             System.out.println(Thread.currentThread().getName()+":start");
             count = count+id;

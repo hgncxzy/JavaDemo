@@ -1,6 +1,6 @@
 package cn.enjoyedu.concurrent.ch2.forkjoin.sum;
 
-import cn.enjoyedu.tools.SleepTools;
+import cn.enjoyedu.concurrent.tools.SleepTools;
 
 public class SumNormal {
 	

@@ -1,6 +1,6 @@
 package cn.enjoyedu.concurrent.ch1.threadlocal;
 
-import cn.enjoyedu.tools.SleepTools;
+import cn.enjoyedu.concurrent.tools.SleepTools;
 
 /**
  * 类说明：ThreadLocal的线程不安全演示

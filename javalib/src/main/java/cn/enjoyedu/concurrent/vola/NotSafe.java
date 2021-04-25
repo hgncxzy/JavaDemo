@@ -1,12 +1,11 @@
 package cn.enjoyedu.concurrent.vola;
 
 /**
- * @author Mark老师   享学课堂 https://enjoy.ke.qq.com
- * 往期课程咨询芊芊老师  QQ：2130753077 VIP课程咨询 依娜老师  QQ：2133576719
- * 类说明：
+ * @author xzy
+ * 类说明：演示 volatile 不能保证变量的原子性，因此是线程不安全的。
  */
 public class NotSafe {
-    private volatile long count =0;
+    private volatile long count = 0;
 
     public long getCount() {
         return count;
@@ -16,13 +15,17 @@ public class NotSafe {
         this.count = count;
     }
 
-    //count进行累加
-    public void incCount(){
+    /**
+     * count进行累加
+     **/
+    public void incCount() {
         count++;
     }
 
-    //线程
-    private static class Count extends Thread{
+    /**
+     * 线程
+     */
+    private static class Count extends Thread {
 
         private NotSafe simplOper;
 
@@ -32,7 +35,7 @@ public class NotSafe {
 
         @Override
         public void run() {
-            for(int i=0;i<10000;i++){
+            for (int i = 0; i < 10000; i++) {
                 simplOper.incCount();
             }
         }

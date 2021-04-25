@@ -1,6 +1,7 @@
 package cn.enjoyedu.concurrent.ch1.syn;
 
-import cn.enjoyedu.tools.SleepTools;
+
+import cn.enjoyedu.concurrent.tools.SleepTools;
 
 /**
  *类说明：演示实例锁和类锁是不同的，两者可以并行

@@ -23,7 +23,6 @@ public class TestReenterSelfLock {
         } finally {
             lock.unlock();
         }
-
     }
 
     public void test() {
