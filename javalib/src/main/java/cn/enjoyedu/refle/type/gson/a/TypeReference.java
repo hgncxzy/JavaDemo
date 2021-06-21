@@ -1,10 +1,9 @@
 package cn.enjoyedu.refle.type.gson.a;
 
-import org.omg.Dynamic.Parameter;
+
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
-import java.util.ArrayList;
 
 /**
  * @author xzy
