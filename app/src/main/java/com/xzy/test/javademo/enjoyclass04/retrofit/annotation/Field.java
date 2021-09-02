@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo.enjoyclass04.retrofit.annotation;
+package com.xzy.test.javademo.enjoyclass04.retrofit.annotation;
 
 
 import java.lang.annotation.Retention;

@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo;
+package com.xzy.test.javademo;
 
 import org.junit.Test;
 

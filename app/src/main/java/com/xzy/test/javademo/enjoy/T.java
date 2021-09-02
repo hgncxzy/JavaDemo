@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo.enjoy;
+package com.xzy.test.javademo.enjoy;
 
 /**
  * @author ：created by xzy.

@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo.enjoy.json;
+package com.xzy.test.javademo.enjoy.json;
 
 public class Main {
 }

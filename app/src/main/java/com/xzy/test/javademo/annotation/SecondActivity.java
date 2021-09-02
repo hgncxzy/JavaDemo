@@ -1,12 +1,12 @@
-package com.xzy.ui.javademo.annotation;
+package com.xzy.test.javademo.annotation;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.xzy.ui.javademo.annotation.inject.Autowired;
-import com.xzy.ui.javademo.annotation.inject.InjectUtils;
+import com.xzy.test.javademo.annotation.inject.Autowired;
+import com.xzy.test.javademo.annotation.inject.InjectUtils;
 
 import java.util.Arrays;
 import java.util.List;
@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * @author xzy
  */
-@com.xzy.ui.javademo.ann.Lance
+@com.xzy.test.javademo.ann.Lance
 public class SecondActivity extends AppCompatActivity {
 
     int i, j;

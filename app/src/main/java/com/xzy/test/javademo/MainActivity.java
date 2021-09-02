@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo;
+package com.xzy.test.javademo;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo.annotation.mytest;
+package com.xzy.test.javademo.annotation.mytest;
 
 
 /**

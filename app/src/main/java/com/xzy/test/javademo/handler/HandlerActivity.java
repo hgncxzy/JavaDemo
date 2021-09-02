@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo.handler;
+package com.xzy.test.javademo.handler;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +12,7 @@ import android.os.Message;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.xzy.ui.javademo.R;
+import com.xzy.test.javademo.R;
 
 /**
  * handler 的基本用法：

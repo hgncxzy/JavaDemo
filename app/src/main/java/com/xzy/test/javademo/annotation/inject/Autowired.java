@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo.annotation.inject;
+package com.xzy.test.javademo.annotation.inject;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

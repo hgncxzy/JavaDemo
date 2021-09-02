@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo.annotation.inject;
+package com.xzy.test.javademo.annotation.inject;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,7 +7,7 @@ import android.os.Parcelable;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.xzy.ui.javademo.annotation.Lance;
+import com.xzy.test.javademo.annotation.Lance;
 
 import java.lang.reflect.Field;
 import java.util.Arrays;

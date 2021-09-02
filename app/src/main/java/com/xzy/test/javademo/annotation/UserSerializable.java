@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo.annotation;
+package com.xzy.test.javademo.annotation;
 
 
 public class UserSerializable implements java.io.Serializable {

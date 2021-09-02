@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo.enjoy.json.gson;
+package com.xzy.test.javademo.enjoy.json.gson;
 
 import java.util.List;
 

@@ -1,12 +1,12 @@
-package com.xzy.ui.javademo.enjoyclass04.api;
+package com.xzy.test.javademo.enjoyclass04.api;
 
 
 
 
-import com.xzy.ui.javademo.enjoyclass04.retrofit.annotation.Field;
-import com.xzy.ui.javademo.enjoyclass04.retrofit.annotation.GET;
-import com.xzy.ui.javademo.enjoyclass04.retrofit.annotation.POST;
-import com.xzy.ui.javademo.enjoyclass04.retrofit.annotation.Query;
+import com.xzy.test.javademo.enjoyclass04.retrofit.annotation.Field;
+import com.xzy.test.javademo.enjoyclass04.retrofit.annotation.GET;
+import com.xzy.test.javademo.enjoyclass04.retrofit.annotation.POST;
+import com.xzy.test.javademo.enjoyclass04.retrofit.annotation.Query;
 
 import okhttp3.Call;
 

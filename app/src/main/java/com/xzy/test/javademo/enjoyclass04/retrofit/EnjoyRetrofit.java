@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo.enjoyclass04.retrofit;
+package com.xzy.test.javademo.enjoyclass04.retrofit;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo.enjoy.xuliehua;
+package com.xzy.test.javademo.enjoy.xuliehua;
 
 import java.io.Serializable;
 

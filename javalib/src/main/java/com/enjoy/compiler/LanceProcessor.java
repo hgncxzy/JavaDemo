@@ -16,7 +16,7 @@ import javax.tools.JavaFileObject;
 /**
  * @author xzy
  */
-@SupportedAnnotationTypes({"com.xzy.ui.javademo.annotation.Lance", "com.xzy.ui.javademo.ann.Lance", "com.xzy.ui.javademo.annotation.inject.Autowired"})
+@SupportedAnnotationTypes({"com.xzy.test.javademo.annotation.Lance", "com.xzy.test.javademo.ann.Lance", "com.xzy.test.javademo.annotation.inject.Autowired"})
 public class LanceProcessor extends AbstractProcessor {
 
     @Override

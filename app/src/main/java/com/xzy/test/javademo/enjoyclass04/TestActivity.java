@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo.enjoyclass04;
+package com.xzy.test.javademo.enjoyclass04;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,10 +6,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-import com.xzy.ui.javademo.R;
-import com.xzy.ui.javademo.enjoyclass04.api.EnjoyWeatherApi;
-import com.xzy.ui.javademo.enjoyclass04.api.WeatherApi;
-import com.xzy.ui.javademo.enjoyclass04.retrofit.EnjoyRetrofit;
+import com.xzy.test.javademo.R;
+import com.xzy.test.javademo.enjoyclass04.api.EnjoyWeatherApi;
+import com.xzy.test.javademo.enjoyclass04.api.WeatherApi;
+import com.xzy.test.javademo.enjoyclass04.retrofit.EnjoyRetrofit;
 
 import java.io.IOException;
 

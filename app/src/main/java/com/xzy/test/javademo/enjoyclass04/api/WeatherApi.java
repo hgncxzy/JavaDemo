@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo.enjoyclass04.api;
+package com.xzy.test.javademo.enjoyclass04.api;
 
 import okhttp3.ResponseBody;
 import retrofit2.Call;

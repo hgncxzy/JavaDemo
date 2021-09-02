@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo.annotation;
+package com.xzy.test.javademo.annotation;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,9 +7,9 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.xzy.ui.javademo.R;
-import com.xzy.ui.javademo.annotation.inject.InjectUtils;
-import com.xzy.ui.javademo.annotation.inject.InjectView;
+import com.xzy.test.javademo.R;
+import com.xzy.test.javademo.annotation.inject.InjectUtils;
+import com.xzy.test.javademo.annotation.inject.InjectView;
 
 import java.util.ArrayList;
 

@@ -1,9 +1,9 @@
-package com.xzy.ui.javademo.annotation.intdef;
+package com.xzy.test.javademo.annotation.intdef;
 
 import androidx.annotation.DrawableRes;
 import androidx.annotation.IntDef;
 
-import com.xzy.ui.javademo.R;
+import com.xzy.test.javademo.R;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

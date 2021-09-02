@@ -13,7 +13,9 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
-
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.5.30-RC'
+}
 allprojects {
     repositories {
         google()
@@ -22,12 +24,6 @@ allprojects {
     }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
-plugins {
-    id 'org.jetbrains.kotlin.jvm' version '1.5.30-RC'
-}
 repositories {
     mavenCentral()
 }

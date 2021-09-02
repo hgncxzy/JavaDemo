@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo.enjoy.xuliehua;
+package com.xzy.test.javademo.enjoy.xuliehua;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -10,7 +10,7 @@ import java.io.Serializable;
 /**
  * 类中的一个成员未实现可序列化接口，
  * 当进行反序列化时，会报如下错误：
- * java.io.NotSerializableException: com.xzy.ui.javademo.enjoy.xuliehua.demo03$NickName
+ * java.io.NotSerializableException: com.xzy.test.javademo.enjoy.xuliehua.demo03$NickName
  */
 public class demo03 {
 

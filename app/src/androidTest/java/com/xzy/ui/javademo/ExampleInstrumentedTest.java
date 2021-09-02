@@ -1,4 +1,4 @@
-package com.xzy.ui.javademo;
+package com.xzy.test.javademo;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.xzy.ui.javademo", appContext.getPackageName());
+        assertEquals("com.xzy.test.javademo", appContext.getPackageName());
     }
 }
