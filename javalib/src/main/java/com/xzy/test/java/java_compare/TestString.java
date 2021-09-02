@@ -1,4 +1,4 @@
-package com.xzy.ui.javalib.java_compare;
+package com.xzy.test.java.java_compare;
 
 /**
  * https://www.cnblogs.com/zhxhdean/archive/2011/03/25/1995431.html

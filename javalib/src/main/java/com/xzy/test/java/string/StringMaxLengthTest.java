@@ -1,4 +1,4 @@
-package com.xzy.ui.javalib.string;
+package com.xzy.test.java.string;
 
 /**
  * 研究字符串的最大长度问题
@@ -6,7 +6,7 @@ package com.xzy.ui.javalib.string;
  * @author ：created by xzy.
  * @date ：2021/8/10
  */
-public class StringLength {
+public class StringMaxLengthTest {
 
     private String s2;
 

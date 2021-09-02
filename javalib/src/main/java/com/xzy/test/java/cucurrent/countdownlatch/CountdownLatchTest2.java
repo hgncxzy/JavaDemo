@@ -1,4 +1,4 @@
-package com.xzy.ui.javalib.cucurrent.countdownlatch;
+package com.xzy.test.java.cucurrent.countdownlatch;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
@@ -6,7 +6,8 @@ import java.util.concurrent.Executors;
 
 /**
  * CountDownLatch 使用场景2
- * 百米赛跑，4名运动员选手到达场地等待裁判口令，裁判一声口令，选手听到后同时起跑，当所有选手到达终点，裁判进行汇总排名
+ * 百米赛跑，4名运动员选手到达场地等待裁判口令，裁判一声口令，选手听到后同时起跑，
+ * 当所有选手到达终点，裁判进行汇总排名
  */
 public class CountdownLatchTest2 {
     public static void main(String[] args) {

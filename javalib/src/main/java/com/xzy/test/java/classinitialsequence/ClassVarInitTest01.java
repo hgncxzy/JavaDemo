@@ -1,4 +1,4 @@
-package com.xzy.ui.javalib.classinitialsequence;
+package com.xzy.test.java.classinitialsequence;
 
 /**
  *
